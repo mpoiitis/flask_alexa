@@ -10,6 +10,8 @@ headers = {'Accept': 'application/vnd.twitchtv.v3+json', 'Client-ID': CLIENT_ID}
 
 def is_online(username):
     data = get_stream_status(username)
+    if 'stream' not in data.keys():
+        return False
     return (data['stream'] is not None)
 
 def get_stream_status(username):
