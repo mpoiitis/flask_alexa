@@ -1,5 +1,3 @@
 welcome: I can search streamers for you at twitch.tv
-
-yes: {{ Streamer }} is streaming.
-	
-no: {{ Streamer }} is not streaming
+nai: is streaming
+psofa: is not streaming

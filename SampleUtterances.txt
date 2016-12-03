@@ -1,7 +1,7 @@
-IsStreaming is {Streamer} streaming?
-IsStreaming if {Streamer} is streaming?
-IsStreaming is {Streamer} online?
-IsStreaming whether {Streamer} is streaming?
-IsStreaming whether {Streamer} is on?
-IsStreaming whether {Streamer} is online?
+IsStreaming is {Streamer} streaming
+IsStreaming if {Streamer} is streaming
+IsStreaming is {Streamer} online
+IsStreaming whether {Streamer} is streaming
+IsStreaming whether {Streamer} is on
+IsStreaming whether {Streamer} is online
 
