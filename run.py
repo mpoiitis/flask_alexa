@@ -16,9 +16,9 @@ logging.getLogger("flask_ask").setLevel(logging.DEBUG)
 @ask.intent('IsStreaming', mapping={'name': 'Streamer'})
 def IsStreaming(name):
     if(twitchapi.is_online(name)):
-        return statement(render_template("nai", Streamer = name))
+        return statement(render_template("yes", Streamer = name))
     else:
-        return statement(render_template("psofa", Streamer = name))
+        return statement(render_template("no", Streamer = name))
 
 
 @ask.launch
