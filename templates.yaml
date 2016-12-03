@@ -1,7 +1,5 @@
-welcome: Welcome to memory game. I'm going to say three numbers for you to repeat backwards. Ready?
+welcome: I can search streamers for you at twitch.tv
 
-round: Can you repeat the numbers {{ numbers|join(", ") }} backwards?
-
-win: Good job!
-
-lose: Sorry, that's the wrong answer.
+yes: {{ Streamer }} is streaming.
+	
+no: {{ Streamer }} is not streaming
