@@ -3,7 +3,7 @@ import requests
 base_url = "https://api.twitch.tv/kraken/"
 
 #This should be changed.
-CLIENT_ID = "kagylf8s6cs0mrqo6qzpvn6t3moffvs"
+CLIENT_ID = "ADD-YOUR-CLIENT-ID"
 
 
 headers = {'Accept': 'application/vnd.twitchtv.v3+json', 'Client-ID': CLIENT_ID}
